@@ -1,0 +1,615 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.data h1 {
+  font-size: 4rem;
+  padding: 1rem;
+}
+.data::after {
+  content: "";
+
+  -webkit-animation: typing 30s infinite steps(20), border-ani 0.8s infinite;
+  animation: typing 30s infinite steps(20), border-ani 0.8s infinite;
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+
+@media only screen and (max-width: 786px) {
+  .data h1 {
+    font-size: 3rem;
+  }
+  .dropdown-submenu .dropdown-menu {
+    width: 25rem;
+  }
+}
+@-webkit-keyframes border-ani {
+  0% {
+    border-right: 0.2rem solid #fff;
+  }
+  100% {
+    border-right: none;
+  }
+}
+@keyframes border-ani {
+  0% {
+    border-right: 0.2rem solid #fff;
+  }
+  100% {
+    border-right: none;
+  }
+}
+
+@-webkit-keyframes typing {
+  0% {
+    content: "D";
+  }
+  1% {
+    content: "De";
+  }
+  2% {
+    content: "Des";
+  }
+  3% {
+    content: "Desi";
+  }
+  4% {
+    content: "Desig";
+  }
+  5% {
+    content: "Design";
+  }
+  6% {
+    content: "Designe";
+  }
+  7% {
+    content: "Designer";
+  }
+  15% {
+    content: "Designer";
+  }
+  16% {
+    content: "Designe";
+  }
+  17% {
+    content: "Desig";
+  }
+  18% {
+    content: "Desi";
+  }
+  19% {
+    content: "Des";
+  }
+  20% {
+    content: "D";
+  }
+  21% {
+    content: "De";
+  }
+  22% {
+    content: "Dev";
+  }
+  23% {
+    content: "Deve";
+  }
+  24% {
+    content: "Devel";
+  }
+  25% {
+    content: "Develo";
+  }
+  26% {
+    content: "Develop";
+  }
+  27% {
+    content: "Develope";
+  }
+  28% {
+    content: "Developer";
+  }
+  35% {
+    content: "Develope";
+  }
+  36% {
+    content: "Develop";
+  }
+  37% {
+    content: "Develo";
+  }
+
+  38% {
+    content: "Devel";
+  }
+  39% {
+    content: "Deve";
+  }
+  40% {
+    content: "Dev";
+  }
+  41% {
+    content: "De";
+  }
+  42% {
+    content: "D";
+  }
+  43% {
+    content: "";
+  }
+  44% {
+    content: "F";
+  }
+  45% {
+    content: "Fr";
+  }
+  46% {
+    content: "Fre";
+  }
+  47% {
+    content: "Free";
+  }
+  48% {
+    content: "Freel";
+  }
+  49% {
+    content: "Freela";
+  }
+  50% {
+    content: "Freelan";
+  }
+  51% {
+    content: "Freelanc";
+  }
+  51% {
+    content: "Freelance";
+  }
+  52% {
+    content: "Freelancer";
+  }
+  60% {
+    content: "Freelance";
+  }
+  61% {
+    content: "Freelanc";
+  }
+  62% {
+    content: "Freelan";
+  }
+  63% {
+    content: "Freela";
+  }
+  64% {
+    content: "Free";
+  }
+  65% {
+    content: "Fre";
+  }
+  66% {
+    content: "Fr";
+  }
+  67% {
+    content: "F";
+  }
+  68% {
+    content: "";
+  }
+  69% {
+    content: "P";
+  }
+  70% {
+    content: "Ph";
+  }
+  71% {
+    content: "Pho";
+  }
+  72% {
+    content: "Phot";
+  }
+  73% {
+    content: "Photo";
+  }
+  74% {
+    content: "Photog";
+  }
+  75% {
+    content: "Photogr";
+  }
+  76% {
+    content: "Photogra";
+  }
+  77% {
+    content: "Photograp";
+  }
+  78% {
+    content: "Photograph";
+  }
+  79% {
+    content: "Photographe";
+  }
+  80% {
+    content: "Photographer";
+  }
+  90% {
+    content: "Photogrape";
+  }
+  91% {
+    content: "Photograp";
+  }
+  92% {
+    content: "Photogra";
+  }
+  93% {
+    content: "Photogr";
+  }
+  94% {
+    content: "Photog";
+  }
+  95% {
+    content: "Photo";
+  }
+  96% {
+    content: "Phot";
+  }
+  97% {
+    content: "Pho";
+  }
+  98% {
+    content: "Ph";
+  }
+  99% {
+    content: "P";
+  }
+  100% {
+    content: "";
+  }
+}
+
+@keyframes typing {
+  0% {
+    content: "D";
+  }
+  1% {
+    content: "De";
+  }
+  2% {
+    content: "Des";
+  }
+  3% {
+    content: "Desi";
+  }
+  4% {
+    content: "Desig";
+  }
+  5% {
+    content: "Design";
+  }
+  6% {
+    content: "Designe";
+  }
+  7% {
+    content: "Designer";
+  }
+  15% {
+    content: "Designe";
+  }
+  16% {
+    content: "Design";
+  }
+  17% {
+    content: "Desig";
+  }
+  18% {
+    content: "Desi";
+  }
+  19% {
+    content: "Des";
+  }
+  20% {
+    content: "D";
+  }
+  21% {
+    content: "De";
+  }
+  22% {
+    content: "Dev";
+  }
+  23% {
+    content: "Deve";
+  }
+  24% {
+    content: "Devel";
+  }
+  25% {
+    content: "Develo";
+  }
+  26% {
+    content: "Develop";
+  }
+  27% {
+    content: "Develope";
+  }
+  28% {
+    content: "Developer";
+  }
+  35% {
+    content: "Develope";
+  }
+  36% {
+    content: "Develop";
+  }
+  37% {
+    content: "Develo";
+  }
+
+  38% {
+    content: "Devel";
+  }
+  39% {
+    content: "Deve";
+  }
+  40% {
+    content: "Dev";
+  }
+  41% {
+    content: "De";
+  }
+  42% {
+    content: "D";
+  }
+  43% {
+    content: "";
+  }
+  44% {
+    content: "F";
+  }
+  45% {
+    content: "Fr";
+  }
+  46% {
+    content: "Fre";
+  }
+  47% {
+    content: "Free";
+  }
+  48% {
+    content: "Freel";
+  }
+  49% {
+    content: "Freela";
+  }
+  50% {
+    content: "Freelan";
+  }
+  51% {
+    content: "Freelanc";
+  }
+  51% {
+    content: "Freelance";
+  }
+  52% {
+    content: "Freelancer";
+  }
+  60% {
+    content: "Freelance";
+  }
+  61% {
+    content: "Freelanc";
+  }
+  62% {
+    content: "Freelan";
+  }
+  63% {
+    content: "Freela";
+  }
+  64% {
+    content: "Free";
+  }
+  65% {
+    content: "Fre";
+  }
+  66% {
+    content: "Fr";
+  }
+  67% {
+    content: "F";
+  }
+  68% {
+    content: "";
+  }
+  69% {
+    content: "P";
+  }
+  70% {
+    content: "Ph";
+  }
+  71% {
+    content: "Pho";
+  }
+  72% {
+    content: "Phot";
+  }
+  73% {
+    content: "Photo";
+  }
+  74% {
+    content: "Photog";
+  }
+  75% {
+    content: "Photogr";
+  }
+  76% {
+    content: "Photogra";
+  }
+  77% {
+    content: "Photograp";
+  }
+  78% {
+    content: "Photograph";
+  }
+  79% {
+    content: "Photographe";
+  }
+  80% {
+    content: "Photographer";
+  }
+  90% {
+    content: "Photogrape";
+  }
+  91% {
+    content: "Photograp";
+  }
+  92% {
+    content: "Photogra";
+  }
+  93% {
+    content: "Photogr";
+  }
+  94% {
+    content: "Photog";
+  }
+  95% {
+    content: "Photo";
+  }
+  96% {
+    content: "Phot";
+  }
+  97% {
+    content: "Pho";
+  }
+  98% {
+    content: "Ph";
+  }
+  99% {
+    content: "P";
+  }
+  100% {
+    content: "";
+  }
+}
+/* ==================counter========================= */
+.con::after {
+  content: counter(num);
+  font-size: 2rem;
+}
+/* =========== num1 ===================================== */
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 450;
+  inherits: true;
+}
+
+.num1 {
+  -webkit-animation: counter-num1 2s alternate ease-in-out;
+  animation: counter-num1 2s alternate ease-in-out;
+  counter-reset: num var(--num);
+  font-size: 1rem;
+}
+@-webkit-keyframes counter-num1 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 450;
+  }
+}
+@keyframes counter-num1 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 450;
+  }
+}
+/* ================num2===================== */
+
+@property --num2 {
+  syntax: "<integer>";
+  initial-value: 25;
+  inherits: true;
+}
+
+.num2 {
+  -webkit-animation: counter-num2 2s alternate ease-in-out;
+  animation: counter-num2 2s alternate ease-in-out;
+  counter-reset: num var(--num2);
+  font-size: 1rem;
+}
+@-webkit-keyframes counter-num2 {
+  from {
+    --num2: 0;
+  }
+  to {
+    --num2: 25;
+  }
+}
+@keyframes counter-num2 {
+  from {
+    --num2: 0;
+  }
+  to {
+    --num2: 25;
+  }
+}
+/* ====================num3====================== */
+@property --num3 {
+  syntax: "<integer>";
+  initial-value: 550;
+  inherits: true;
+}
+
+.num3 {
+  -webkit-animation: counter-num3 2s ease-in-out;
+  animation: counter-num3 2s ease-in-out;
+  counter-reset: num var(--num3);
+  font-size: 1rem;
+}
+
+@-webkit-keyframes counter-num3 {
+  from {
+    --num3: 0;
+  }
+  to {
+    --num3: 550;
+  }
+}
+@keyframes counter-num3 {
+  from {
+    --num3: 0;
+  }
+  to {
+    --num3: 550;
+  }
+}
+/* =======================num4====================== */
+
+@property --num4 {
+  syntax: "<integer>";
+  initial-value: 48;
+  inherits: true;
+}
+
+.num4 {
+  -webkit-animation: counter-num4 2s alternate ease-in-out;
+  animation: counter-num4 2s alternate ease-in-out;
+  counter-reset: num var(--num4);
+  font-size: 1rem;
+}
+@-webkit-keyframes counter-num4 {
+  from {
+    --num4: 0;
+  }
+  to {
+    --num4: 48;
+  }
+}
+@keyframes counter-num4 {
+  from {
+    --num4: 0;
+  }
+  to {
+    --num4: 48;
+  }
+}
